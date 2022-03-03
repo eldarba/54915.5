@@ -11,6 +11,7 @@ public class Demo2 {
 		
 		int y = 10;
 		System.out.println(y); //
+		
 
 	}
 
