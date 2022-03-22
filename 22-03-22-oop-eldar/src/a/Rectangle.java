@@ -10,8 +10,8 @@ public class Rectangle extends Shape {
 	public Rectangle() {
 	}
 
-	public Rectangle(double length, double width) {
-		super();
+	public Rectangle(String color, double length, double width) {
+		super(color);
 		this.length = length;
 		this.width = width;
 	}
