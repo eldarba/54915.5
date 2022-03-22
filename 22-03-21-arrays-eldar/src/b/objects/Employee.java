@@ -8,7 +8,7 @@ public class Employee extends Person {
 	}
 
 	public Employee(int id, String name, int age, double salary) {
-		super(id, name, age);
+		super(id, name, age); // invoke another CTOR in the super class
 		this.salary = salary;
 	}
 
